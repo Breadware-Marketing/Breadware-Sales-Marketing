@@ -683,7 +683,7 @@ let companies_test = [
 
   (async () => {
     const browser = await puppeteer.launch({
-      headless: false
+      // headless: false
     });
     for (i=0; i < companies_test.length; i++){
       const page = await browser.newPage();
