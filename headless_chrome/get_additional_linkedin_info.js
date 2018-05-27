@@ -671,18 +671,20 @@ let companies_test = [
       "employees_on_linkedin": "",
       "companyId": "522721"
   }
-  ];
-  
+];
+
   const cookie = {
     name: 'li_at',
-    value: 'AQEDARpZzHQFPQ5-AAABYtF7yrYAAAFjQx6S91YAW3YXb56-ktM5zzVqOU_LMcdd4OxDgXH5ZIaBI6D5fZ1KlY_omQqKxs7HUdCCX-MXshnOZIIdkQKkHEjFh-ej46CRglQsTy2zKBHhF81CwEv0nP6K',
+    value: 'AQEDARpZzHQEo07OAAABYy3QcusAAAFjtAGe2VYAT3TtoqTyhHuCco-ojk4t1tEWB6YlqBtDtZUTPvltfMjAoR4sFdrUFrxIJjw-gNs5c1glcBzAJYgCFjUSZsqkbWGsAuquTF2afeIBivRFZjnFPvY5',
     domain: 'www.linkedin.com',
   };
-  
+
   const puppeteer = require('puppeteer');
-  
+
   (async () => {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      headless: false
+    });
     for (i=0; i < companies_test.length; i++){
       const page = await browser.newPage();
       await page.addScriptTag({ url: 'https://code.jquery.com/jquery-3.2.1.min.js' });
@@ -692,25 +694,35 @@ let companies_test = [
         const $ = window.$; //otherwise the transpiler will rename it and won't work
         const data = [];
         try {
-          data.push({
-            website: $('.website').attr('href').replace(/(\r\n\t|\n|\r\t)/gm,"").trim(),
-            employees: ($('.cta-link').text()).replace(/(\r\n\t|\n|\r\t)/gm,"").trim()
-          });
+          website = $('.website').attr('href').replace(/(\r\n\t|\n|\r\t)/gm,"").trim();
+          employees = ($('.cta-link').text()).replace(/(\r\n\t|\n|\r\t)/gm,"").trim();
         }
         catch (err){
-          data.push({
-            website: '',
-            employees: ($('.cta-link').text()).replace(/(\r\n\t|\n|\r\t)/gm,"").trim()
-          });
+          website = '';
+          employees = ($('.cta-link').text()).replace(/(\r\n\t|\n|\r\t)/gm,"").trim();
         }
+
+        try {
+          $('.topcard-see-more-link').click()
+          discription = ($('.topcard-extended-description-modal-content-text').text()).replace(/(\r\n)/gm,"").trim();
+        } catch (err) {
+          discription = ''
+        }
+
+        data.push({
+          website: website,
+          employees: employees,
+          discription: discription
+        })
         return data;
       });
-  
-      companies_test[i].website = values[0].website;   
-      companies_test[i].employees_on_linkedin = values[0].employees;   
-  
+
+      companies_test[i].website = values[0].website;
+      companies_test[i].employees_on_linkedin = values[0].employees;
+      companies_test[i].discription = values[0].discription;
+
       console.log(JSON.stringify(companies_test[i])+ ',');
-      await page.pdf({path: 'sample.pdf', format: 'A4'});
+      // await page.pdf({path: 'sample.pdf', format: 'A4'});
       await page.close();
     }
     await browser.close()
