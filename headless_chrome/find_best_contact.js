@@ -40,7 +40,7 @@ const untouchable = [
   "technician",
   "packaging",
   "retired"
-]; 
+];
 
 // Slighty Touchable - You still shouldn't touch them though
 const sudra = ["app"];
@@ -217,259 +217,259 @@ let companies_test = [
       "employees_on_linkedin": "111 employees on LinkedIn",
       "companyId": "3680164"
   },
-  {
-      "id": 178,
-      "name": "Aprilaire, a Division of Research Products Corporation",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=85193",
-      "website": "http://www.aprilaire.com",
-      "geography": "Madison, Wisconsin Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "208 employees on LinkedIn",
-      "companyId": "85193"
-  },
-  {
-      "id": 179,
-      "name": "Arden Companies",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=417987",
-      "website": "http://www.ardencompanies.com",
-      "geography": "Greater Detroit Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "169 employees on LinkedIn",
-      "companyId": "417987"
-  },
-  {
-      "id": 180,
-      "name": "Arett Sales",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=151868",
-      "website": "http://www.arett.com",
-      "geography": "Greater Philadelphia Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "91 employees on LinkedIn",
-      "companyId": "151868"
-  },
-  {
-      "id": 181,
-      "name": "Ariat International",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=51205",
-      "website": "http://www.ariat.com",
-      "geography": "United States",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "403 employees on LinkedIn",
-      "companyId": "51205"
-  },
-  {
-      "id": 182,
-      "name": "ASG Brands",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=6929129",
-      "website": "http://www.asgbrands.com",
-      "geography": "Dallas/Fort Worth Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "59 employees on LinkedIn",
-      "companyId": "6929129"
-  },
-  {
-      "id": 183,
-      "name": "Ashley Ward, Inc",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=2123281",
-      "website": "http://www.ashleyward.com",
-      "geography": "Cincinnati, Ohio Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "54 employees on LinkedIn",
-      "companyId": "2123281"
-  },
-  {
-      "id": 184,
-      "name": "Astor Chocolate",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=140594",
-      "website": "http://www.astorchocolate.com/",
-      "geography": "Greater New York City Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "112 employees on LinkedIn",
-      "companyId": "140594"
-  },
-  {
-      "id": 185,
-      "name": "AZUMA Leasing",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=87629",
-      "website": "http://www.azuma.com",
-      "geography": "Austin, Texas Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "62 employees on LinkedIn",
-      "companyId": "87629"
-  },
-  {
-      "id": 186,
-      "name": "B",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=87862",
-      "website": "http://www.bowers-wilkins.com",
-      "geography": "United States",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "150 employees on LinkedIn",
-      "companyId": "87862"
-  },
-  {
-      "id": 187,
-      "name": "Backyard Discovery/Leisure Time",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1481054",
-      "website": "http://backyarddiscovery.com",
-      "geography": "Joplin, Missouri Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "60 employees on LinkedIn",
-      "companyId": "1481054"
-  },
-  {
-      "id": 188,
-      "name": "Backyard Products LLC",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1847386",
-      "website": "https://www.backyardproducts.com/",
-      "geography": "Greater Detroit Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "90 employees on LinkedIn",
-      "companyId": "1847386"
-  },
-  {
-      "id": 189,
-      "name": "Basco Shower Enclosures",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=615336",
-      "website": "http://www.bascoshowerdoor.com",
-      "geography": "Cincinnati, Ohio Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "92 employees on LinkedIn",
-      "companyId": "615336"
-  },
-  {
-      "id": 190,
-      "name": "Basic Research",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=19959",
-      "website": "http://www.basicresearch.org",
-      "geography": "United States",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "181 employees on LinkedIn",
-      "companyId": "19959"
-  },
-  {
-      "id": 191,
-      "name": "Battery Systems",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=952694",
-      "website": "http://www.batterysystems.net",
-      "geography": "Orange County, California Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "167 employees on LinkedIn",
-      "companyId": "952694"
-  },
-  {
-      "id": 192,
-      "name": "BEDGEAR",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1961110",
-      "website": "http://www.bedgear.com",
-      "geography": "Greater New York City Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "119 employees on LinkedIn",
-      "companyId": "1961110"
-  },
-  {
-      "id": 193,
-      "name": "Bell Laboratories, Inc.",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=9235655",
-      "website": "http://www.belllabs.com",
-      "geography": "Madison, Wisconsin Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "116 employees on LinkedIn",
-      "companyId": "9235655"
-  },
-  {
-      "id": 194,
-      "name": "Bentley Laboratories, LLC",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1963090",
-      "website": "http://www.bentleylabs.com",
-      "geography": "Greater New York City Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "90 employees on LinkedIn",
-      "companyId": "1963090"
-  },
-  {
-      "id": 195,
-      "name": "Beretta USA",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=51185",
-      "website": "http://www.beretta.com/en-us/",
-      "geography": "Greater Nashville Area, TN",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "226 employees on LinkedIn",
-      "companyId": "51185"
-  },
-  {
-      "id": 196,
-      "name": "Bigelow Tea",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=112225",
-      "website": "http://www.bigelowtea.com",
-      "geography": "Greater New York City Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "152 employees on LinkedIn",
-      "companyId": "112225"
-  },
-  {
-      "id": 197,
-      "name": "Blendtec",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=80193",
-      "website": "http://www.blendtec.com",
-      "geography": "Provo, Utah Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "203 employees on LinkedIn",
-      "companyId": "80193"
-  },
-  {
-      "id": 198,
-      "name": "Blistex Inc.",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=51209",
-      "website": "http://www.blistex.com",
-      "geography": "Greater Chicago Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "181 employees on LinkedIn",
-      "companyId": "51209"
-  },
-  {
-      "id": 199,
-      "name": "Boots Retail USA, Inc.",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=5208278",
-      "website": "http://www.walgreensbootsalliance.com",
-      "geography": "Greater New York City Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "782 employees on LinkedIn",
-      "companyId": "5208278"
-  },
-  {
-      "id": 200,
-      "name": "Border Foods Inc",
-      "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=688137",
-      "website": "http://borderfoodsinc.com",
-      "geography": "Dallas/Fort Worth Area",
-      "industry": "Consumer Goods",
-      "company_headcount": "",
-      "employees_on_linkedin": "91 employees on LinkedIn",
-      "companyId": "688137"
-  }
+  // {
+  //     "id": 178,
+  //     "name": "Aprilaire, a Division of Research Products Corporation",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=85193",
+  //     "website": "http://www.aprilaire.com",
+  //     "geography": "Madison, Wisconsin Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "208 employees on LinkedIn",
+  //     "companyId": "85193"
+  // },
+  // {
+  //     "id": 179,
+  //     "name": "Arden Companies",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=417987",
+  //     "website": "http://www.ardencompanies.com",
+  //     "geography": "Greater Detroit Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "169 employees on LinkedIn",
+  //     "companyId": "417987"
+  // },
+  // {
+  //     "id": 180,
+  //     "name": "Arett Sales",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=151868",
+  //     "website": "http://www.arett.com",
+  //     "geography": "Greater Philadelphia Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "91 employees on LinkedIn",
+  //     "companyId": "151868"
+  // },
+  // {
+  //     "id": 181,
+  //     "name": "Ariat International",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=51205",
+  //     "website": "http://www.ariat.com",
+  //     "geography": "United States",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "403 employees on LinkedIn",
+  //     "companyId": "51205"
+  // },
+  // {
+  //     "id": 182,
+  //     "name": "ASG Brands",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=6929129",
+  //     "website": "http://www.asgbrands.com",
+  //     "geography": "Dallas/Fort Worth Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "59 employees on LinkedIn",
+  //     "companyId": "6929129"
+  // },
+  // {
+  //     "id": 183,
+  //     "name": "Ashley Ward, Inc",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=2123281",
+  //     "website": "http://www.ashleyward.com",
+  //     "geography": "Cincinnati, Ohio Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "54 employees on LinkedIn",
+  //     "companyId": "2123281"
+  // },
+  // {
+  //     "id": 184,
+  //     "name": "Astor Chocolate",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=140594",
+  //     "website": "http://www.astorchocolate.com/",
+  //     "geography": "Greater New York City Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "112 employees on LinkedIn",
+  //     "companyId": "140594"
+  // },
+  // {
+  //     "id": 185,
+  //     "name": "AZUMA Leasing",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=87629",
+  //     "website": "http://www.azuma.com",
+  //     "geography": "Austin, Texas Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "62 employees on LinkedIn",
+  //     "companyId": "87629"
+  // },
+  // {
+  //     "id": 186,
+  //     "name": "B",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=87862",
+  //     "website": "http://www.bowers-wilkins.com",
+  //     "geography": "United States",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "150 employees on LinkedIn",
+  //     "companyId": "87862"
+  // },
+  // {
+  //     "id": 187,
+  //     "name": "Backyard Discovery/Leisure Time",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1481054",
+  //     "website": "http://backyarddiscovery.com",
+  //     "geography": "Joplin, Missouri Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "60 employees on LinkedIn",
+  //     "companyId": "1481054"
+  // },
+  // {
+  //     "id": 188,
+  //     "name": "Backyard Products LLC",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1847386",
+  //     "website": "https://www.backyardproducts.com/",
+  //     "geography": "Greater Detroit Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "90 employees on LinkedIn",
+  //     "companyId": "1847386"
+  // },
+  // {
+  //     "id": 189,
+  //     "name": "Basco Shower Enclosures",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=615336",
+  //     "website": "http://www.bascoshowerdoor.com",
+  //     "geography": "Cincinnati, Ohio Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "92 employees on LinkedIn",
+  //     "companyId": "615336"
+  // },
+  // {
+  //     "id": 190,
+  //     "name": "Basic Research",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=19959",
+  //     "website": "http://www.basicresearch.org",
+  //     "geography": "United States",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "181 employees on LinkedIn",
+  //     "companyId": "19959"
+  // },
+  // {
+  //     "id": 191,
+  //     "name": "Battery Systems",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=952694",
+  //     "website": "http://www.batterysystems.net",
+  //     "geography": "Orange County, California Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "167 employees on LinkedIn",
+  //     "companyId": "952694"
+  // },
+  // {
+  //     "id": 192,
+  //     "name": "BEDGEAR",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1961110",
+  //     "website": "http://www.bedgear.com",
+  //     "geography": "Greater New York City Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "119 employees on LinkedIn",
+  //     "companyId": "1961110"
+  // },
+  // {
+  //     "id": 193,
+  //     "name": "Bell Laboratories, Inc.",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=9235655",
+  //     "website": "http://www.belllabs.com",
+  //     "geography": "Madison, Wisconsin Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "116 employees on LinkedIn",
+  //     "companyId": "9235655"
+  // },
+  // {
+  //     "id": 194,
+  //     "name": "Bentley Laboratories, LLC",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1963090",
+  //     "website": "http://www.bentleylabs.com",
+  //     "geography": "Greater New York City Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "90 employees on LinkedIn",
+  //     "companyId": "1963090"
+  // },
+  // {
+  //     "id": 195,
+  //     "name": "Beretta USA",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=51185",
+  //     "website": "http://www.beretta.com/en-us/",
+  //     "geography": "Greater Nashville Area, TN",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "226 employees on LinkedIn",
+  //     "companyId": "51185"
+  // },
+  // {
+  //     "id": 196,
+  //     "name": "Bigelow Tea",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=112225",
+  //     "website": "http://www.bigelowtea.com",
+  //     "geography": "Greater New York City Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "152 employees on LinkedIn",
+  //     "companyId": "112225"
+  // },
+  // {
+  //     "id": 197,
+  //     "name": "Blendtec",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=80193",
+  //     "website": "http://www.blendtec.com",
+  //     "geography": "Provo, Utah Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "203 employees on LinkedIn",
+  //     "companyId": "80193"
+  // },
+  // {
+  //     "id": 198,
+  //     "name": "Blistex Inc.",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=51209",
+  //     "website": "http://www.blistex.com",
+  //     "geography": "Greater Chicago Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "181 employees on LinkedIn",
+  //     "companyId": "51209"
+  // },
+  // {
+  //     "id": 199,
+  //     "name": "Boots Retail USA, Inc.",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=5208278",
+  //     "website": "http://www.walgreensbootsalliance.com",
+  //     "geography": "Greater New York City Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "782 employees on LinkedIn",
+  //     "companyId": "5208278"
+  // },
+  // {
+  //     "id": 200,
+  //     "name": "Border Foods Inc",
+  //     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=688137",
+  //     "website": "http://borderfoodsinc.com",
+  //     "geography": "Dallas/Fort Worth Area",
+  //     "industry": "Consumer Goods",
+  //     "company_headcount": "",
+  //     "employees_on_linkedin": "91 employees on LinkedIn",
+  //     "companyId": "688137"
+  // }
 ];
 
 // Checks Whether a Value is in a Given Array and Returns True or False
@@ -633,6 +633,7 @@ const puppeteer = require("puppeteer");
               cool: 0,
               company_name: companies_test[i].name,
               company_website: companies_test[i].website,
+              email: ''
             });
           });
           return potential_leads;
@@ -665,9 +666,8 @@ const puppeteer = require("puppeteer");
 
       // Show Only Relevant Results
       for (let pL of potential_leads) {
-        if (pL.cool > 3) {
+        if (pL.cool >= 3) {
           leadsWithCoolPoints.push(pL);
-          fs.appendFileSync('leads.txt', '\n' + JSON.stringify(pL) + ',');
         }
       }
 
@@ -684,24 +684,41 @@ const puppeteer = require("puppeteer");
           }
         }
       }
-////////////////////////////////////////////////////////////////
-      for (person of leadsWithCoolPoints) {
+      return leadsWithCoolPoints
+    }
+
+    function push_best_email_file(company_leads) {
+      console.log("new_copmany")
+      fs.appendFileSync('leads.txt', '\n NEW COMPNAY ----------------');
+      for (person of company_leads) {
+        console.log(person['name'])
         name = "name=" + person['name'];
         url = "&url=" + person['company_website'];
+
         var options = {
             url: 'https://email-finder-breadware.herokuapp.com/api?' + name + url,
             method: 'GET'
         };
-        request(options, function(err, res, body) {
-          console.log(JSON.parse(body))
-        });
+
+        try {
+          request(options, function(err, res, body) {
+            var email = JSON.parse(body)['email'];
+            email = email[1].length > 1 ? email[0] : email;
+            person['email'] = email;
+            console.log(person['name'], person['email'])
+            fs.appendFileSync('leads.txt', '\n' + JSON.stringify(person) + ',');
+            break;
+          })
+        } catch(err) {
+          email = 'None'
+        }
       }
-////////////////////////////////////////////////////////////////
-      return leadsWithCoolPoints
+      return 0
     }
 
-    results.push(lists(leads))
-    console.log('lskjflksdjflksdjf')
+    // results.push(lists(leads))
+    push_best_email_file(lists(leads))
+
     await page.close();
   }
   // console.log(results);

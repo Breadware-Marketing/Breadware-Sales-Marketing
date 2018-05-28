@@ -704,22 +704,22 @@ let companies_test = [
 
         try {
           $('.topcard-see-more-link').click()
-          discription = ($('.topcard-extended-description-modal-content-text').text()).replace(/(\r\n)/gm,"").trim();
+          description = ($('.topcard-extended-description-modal-content-text').text()).replace(/(\r\n)/gm,"").trim();
         } catch (err) {
-          discription = ''
+          description = ''
         }
 
         data.push({
           website: website,
           employees: employees,
-          discription: discription
+          description: description
         })
         return data;
       });
 
       companies_test[i].website = values[0].website;
       companies_test[i].employees_on_linkedin = values[0].employees;
-      companies_test[i].discription = values[0].discription;
+      companies_test[i].description = values[0].description;
 
       console.log(JSON.stringify(companies_test[i])+ ',');
       // await page.pdf({path: 'sample.pdf', format: 'A4'});
