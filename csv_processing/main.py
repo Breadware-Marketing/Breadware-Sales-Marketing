@@ -44,7 +44,7 @@ class Analyze_CSV(object):
         for i in range(len(self.data)-1):
             if self.data[i][field_location]:
                 if (helper.return_number(self.data[i][field_location]) >= count) and self.data[i][website_field_loc] and urlparse(self.data[i][website_field_loc]).scheme and urlparse(self.data[i][website_field_loc]).netloc:
-                    self.filtered_data.append(i)
+                    self.filtered_data.append(self.data[i])
         print("{} Companies Remaining".format(len(self.filtered_data)))
 
     # Create CSV
