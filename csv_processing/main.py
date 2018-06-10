@@ -41,10 +41,10 @@ class Analyze_CSV(object):
     def clean_by_employees(self, field, count):
         field_location = self.find_field(field)
         website_field_loc = self.find_field('website')
-        for i in self.data:
-            if (helper.return_number(i[field_location]) >= count) and i[website_field_loc] and urlparse(i[website_field_loc]).scheme and urlparse(i[website_field_loc]).netloc:
-                print(urlparse(i[website_field_loc]))
-                self.filtered_data.append(i)
+        for i in range(len(self.data)-1):
+            if self.data[i][field_location]:
+                if (helper.return_number(self.data[i][field_location]) >= count) and self.data[i][website_field_loc] and urlparse(self.data[i][website_field_loc]).scheme and urlparse(self.data[i][website_field_loc]).netloc:
+                    self.filtered_data.append(i)
         print("{} Companies Remaining".format(len(self.filtered_data)))
 
     # Create CSV
@@ -98,9 +98,9 @@ class Analyze_CSV(object):
 #                 writer.writerow(info)
 #             print('---')
 
-data = Analyze_CSV('inputs/company_info.csv')
-data.clean_by_employees('employees_on_linkedin', 10)
-data.create_csv('more_than_10_employees')
+data = Analyze_CSV('inputs/consumer_info.csv')
+data.clean_by_employees('employees_on_linkedin', 200)
+data.create_csv('more_than_200_employees')
 
 # data = Get_user_email('inputs/test_input.csv')
 # data.create_csv('things_and_what_not')
