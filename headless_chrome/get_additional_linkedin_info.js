@@ -1,4 +1,3 @@
-
 let companies_test = [
     {
         "id": 809,

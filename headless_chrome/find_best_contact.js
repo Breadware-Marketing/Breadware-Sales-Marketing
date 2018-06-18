@@ -150,19 +150,128 @@ const custom_scores = [
   }
 ];
 
-// {
-//     "id": 607,
-//     "name": "Ankit",
-//     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=833287",
-//     "website": "http://www.shopankit.com",
-//     "geography": "West Palm Beach, Florida Area",
-//     "industry": "Consumer Goods",
-//     "company_headcount": "",
-//     "employees_on_linkedin": "91 employees on LinkedIn",
-//     "companyId": "833287"
-// }
-
-let companies_test = []
+let companies_test = [
+    {
+        "id": 1,
+        "name": "Sysco",
+        "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=5343",
+        "website": "http://www.sysco.com",
+        "geography": "Houston, Texas Area",
+        "industry": "Food",
+        "company_headcount": "10001",
+        "employees_on_linkedin": "14,814 employees on LinkedIn",
+        "companyId": "",
+        "employee_first_name": "",
+        "employee_last_name": "",
+        "employee_email": "",
+        "employee_position": ""
+    },
+    {
+        "id": 2,
+        "name": "Nike",
+        "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=2029",
+        "website": "http://jobs.nike.com/",
+        "geography": "Portland, Oregon Area",
+        "industry": "Sporting Goods",
+        "company_headcount": "10001",
+        "employees_on_linkedin": "56,202 employees on LinkedIn",
+        "companyId": "",
+        "employee_first_name": "",
+        "employee_last_name": "",
+        "employee_email": "",
+        "employee_position": ""
+    },
+    {
+        "id": 3,
+        "name": "Apple",
+        "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=162479",
+        "website": "http://www.apple.com/",
+        "geography": "San Francisco Bay Area",
+        "industry": "Consumer Electronics",
+        "company_headcount": "10001",
+        "employees_on_linkedin": "153,922 employees on LinkedIn",
+        "companyId": "",
+        "employee_first_name": "",
+        "employee_last_name": "",
+        "employee_email": "",
+        "employee_position": ""
+    },
+    {
+        "id": 4,
+        "name": "The Coca-Cola Company",
+        "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1694",
+        "website": "http://www.coca-colacompany.com",
+        "geography": "Greater Atlanta Area",
+        "industry": "Food",
+        "company_headcount": "10001",
+        "employees_on_linkedin": "50,136 employees on LinkedIn",
+        "companyId": "",
+        "employee_first_name": "",
+        "employee_last_name": "",
+        "employee_email": "",
+        "employee_position": ""
+    },
+    {
+        "id": 5,
+        "name": "Motorola Mobility (a Lenovo Company)",
+        "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1066",
+        "website": "http://www.motorola.com/us/home",
+        "geography": "Greater Chicago Area",
+        "industry": "Consumer Electronics",
+        "company_headcount": "1001-5000",
+        "employees_on_linkedin": "24,582 employees on LinkedIn",
+        "companyId": "",
+        "employee_first_name": "",
+        "employee_last_name": "",
+        "employee_email": "",
+        "employee_position": ""
+    },
+    {
+        "id": 6,
+        "name": "PepsiCo",
+        "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=1431",
+        "website": "http://www.pepsico.com",
+        "geography": "Greater New York City Area",
+        "industry": "Food",
+        "company_headcount": "10001",
+        "employees_on_linkedin": "105,881 employees on LinkedIn",
+        "companyId": "",
+        "employee_first_name": "",
+        "employee_last_name": "",
+        "employee_email": "",
+        "employee_position": ""
+    },
+    {
+        "id": 7,
+        "name": "Amazon Lab126",
+        "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=208137",
+        "website": "http://www.lab126.com",
+        "geography": "San Francisco Bay Area",
+        "industry": "Consumer Electronics",
+        "company_headcount": "1001-5000",
+        "employees_on_linkedin": "3,516 employees on LinkedIn",
+        "companyId": "",
+        "employee_first_name": "",
+        "employee_last_name": "",
+        "employee_email": "",
+        "employee_position": ""
+    },
+    {
+        "id": 8,
+        "name": "The Kraft Heinz Company",
+        "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=164197",
+        "website": "http://www.kraftheinzcompany.com",
+        "geography": "Greater Chicago Area",
+        "industry": "Food",
+        "company_headcount": "10001",
+        "employees_on_linkedin": "13,057 employees on LinkedIn",
+        "companyId": "",
+        "employee_first_name": "",
+        "employee_last_name": "",
+        "employee_email": "",
+        "employee_position": ""
+    }
+]
 
 // Checks Whether a Value is in a Given Array and Returns True or False
 const is_in_array = function(s, your_array) {
@@ -272,7 +381,7 @@ function calculate_cool_score(data, company_employee_count) {
 const cookie = {
   name: "li_at",
   value:
-    "AQEDARpZzHQEo07OAAABYy3QcusAAAFj2A2NvVYAv0Xgit5PG2k4pnds2EPgKZtCCSMjIUXcQNQa8EtEqqApnIHlmZU_nz6Gut7T1xYpykyVDPca9W3pvBw_iVpGG5DC2vdiHjTJsAIj87bWnEwRWxF_",
+    "AQEDARpZzHQFQnEgAAABY9ebJLsAAAFkKar9olYAeES_6fWi2Cx1FPfood4DXO_78LT2CWQRHe1_0ls2BuOlZmU_SBgjvV8aFAxhcZP98Oosrb7woJuDrN4ZkYW8YJdm60N5lllOd2Qn_Gkx99l4zHaH",
   domain: "www.linkedin.com"
 };
 
@@ -386,10 +495,11 @@ const puppeteer = require("puppeteer");
       }
     }
 
-    function push_best_email_file(company_leads) {
-      if (company_leads != '') {
-        name = "name=" + company_leads['name'];
-        url = "&url=" + company_leads['company_website'];
+    function push_best_email_file(company_lead, company_info) {
+      if (company_lead['email'] != 'None') {
+        console.log(company_lead)
+        name = "name=" + company_lead['name'];
+        url = "&url=" + company_lead['company_website'];
 
         var options = {
             url: 'https://email-finder-breadware.herokuapp.com/api?' + name + url,
@@ -407,14 +517,37 @@ const puppeteer = require("puppeteer");
               email = 'None'
             }
             email = email[1].length > 1 ? email[0] : email;
-            company_leads['email'] = email;
+            company_lead['email'] = email;
             console.log(email)
+
+            // split first and last name
+            name = company_lead['name'];
+            first_name = name.slice(0, name.indexOf(" "));
+            last_name = name.slice(name.indexOf(" ") + 1);
+
             if (email != "None")
-              fs.appendFileSync('leads.txt', '\n' + JSON.stringify(company_leads) + ',');
+              fs.appendFileSync('more_company_leads_test.txt', '\n' + JSON.stringify(company_lead) + ',');
+              // PUT request to update company with lead info
+              url = 'http://127.0.0.1:8000/company/' + company_info['id'] + '/'
+              request({
+                  uri: url,
+                  method: "PUT",
+                  headers: {
+                      'Content-type': 'application/json'
+                  },
+                  body: {employee_first_name: first_name,
+                        employee_last_name: last_name,
+                        employee_email: company_lead['email'],
+                        employee_position: company_lead['position']},
+                        json: true
+              }, (error, response, body) => {
+                if (error)
+                  console.log("Error")
+              })
             if (email == "Tell Ed This is Happening") {
               console.log("-------------------------")
               console.log("Tell Ed This is Happening")
-              console.log(company_leads)
+              console.log(company_lead)
               console.log("Tell Ed This is Happening")
               console.log("-------------------------")
             }
@@ -429,7 +562,8 @@ const puppeteer = require("puppeteer");
     }
 
     // results.push(lists(leads))
-    push_best_email_file(lists(leads))
+    push_best_email_file(lists(leads), companies_test[i])
+
     console.log(i)
 
     await page.close();
