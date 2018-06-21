@@ -9011,13 +9011,14 @@ let companies_test = [
         })
         return data;
       });
+      console.log(values)
 
       companies_test[i].website = values[0].website;
       companies_test[i].employees_on_linkedin = values[0].employees;
       companies_test[i].description = values[0].description;
 
       fs.appendFileSync('company_info.txt', '\n' + JSON.stringify(companies_test[i]) + ',');
-      console.log(JSON.stringify(companies_test[i])+ ',');
+      // console.log(JSON.stringify(companies_test[i])+ ',');
       // await page.pdf({path: 'sample.pdf', format: 'A4'});
       await page.close();
     }

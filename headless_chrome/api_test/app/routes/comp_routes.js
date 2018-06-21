@@ -2,22 +2,21 @@ var common = require('./common.js');
 // get_additional_comp_info
 // find_best_lead
 
-// get rid of this nonsense
-function sleep(miliseconds) {
-  var currentTime = new Date().getTime();
-  while (currentTime + miliseconds >= new Date().getTime()) {
-  }
-}
+// async function output(){
+//   var result = await thing(6651289);
+//   // await console.log("result: " + result)
+//   console.log(result)
+// }
 
 module.exports = function(app, db) {
-  app.get('/comp', (req, res) => {
+  app.get('/comp', async (req, res) => {
     if (!req.query.id) {
       return res.send({"error": "Not sufficient information"});
     } else if (req.query.id) {
       const comp_id = req.query.id;
-      website = common.get_additional_comp_info(comp_id)
-      sleep(2000)
-      return res.send({"website": website});
+      // var info = await common.get_additional_comp_info(comp_id);
+      var lead_info = await common.find_best_lead(comp_id, "breadware.com")
+      return res.send(info + lead_info);
     }
   });
 };
