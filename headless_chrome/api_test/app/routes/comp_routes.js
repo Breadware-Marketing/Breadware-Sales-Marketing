@@ -1,4 +1,5 @@
-var common = require('./common.js');
+var get_info = require('./get_info.js');
+var best_lead = require('./best_lead.js');
 // get_additional_comp_info
 // find_best_lead
 
@@ -14,9 +15,9 @@ module.exports = function(app, db) {
       return res.send({"error": "Not sufficient information"});
     } else if (req.query.id) {
       const comp_id = req.query.id;
-      // var info = await common.get_additional_comp_info(comp_id);
-      var lead_info = await common.find_best_lead(comp_id, "breadware.com")
-      return res.send(info + lead_info);
+      var info = await get_info.get_additional_comp_info(comp_id);
+      // var lead_info = await common.find_best_lead(comp_id, "breadware.com")
+      return res.send(info);
     }
   });
 };
