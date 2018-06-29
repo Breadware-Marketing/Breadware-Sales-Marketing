@@ -162,7 +162,18 @@ const custom_scores = [
 //     "companyId": "833287"
 // }
 
-let companies_test = []
+let companies_test = [
+  {
+    "id": 607,
+    "name": "Bemis Manufacturing Company",
+    "linkedin_url": "https://www.linkedin.com/sales/company/72931/people",
+    "website": "www.BemisMfg.com",
+    "industry": "Plastics",
+    "company_headcount": "",
+    "employees_on_linkedin": "645 employees on LinkedIn",
+    "companyId": "72931"
+}
+]
 
 // Checks Whether a Value is in a Given Array and Returns True or False
 const is_in_array = function(s, your_array) {
@@ -272,7 +283,7 @@ function calculate_cool_score(data, company_employee_count) {
 const cookie = {
   name: "li_at",
   value:
-    "AQEDARpZzHQEo07OAAABYy3QcusAAAFj2A2NvVYAv0Xgit5PG2k4pnds2EPgKZtCCSMjIUXcQNQa8EtEqqApnIHlmZU_nz6Gut7T1xYpykyVDPca9W3pvBw_iVpGG5DC2vdiHjTJsAIj87bWnEwRWxF_",
+    "AQEDARpZzHQC4jwtAAABY-zaSKYAAAFkEObMpk0AGCpY6i4eEKlM6SPuRC3p6Z-QkR2sqz5sA3oD1D6GgonWiXZA8nVYSqilf7rbrc9go9oQygQ0FnYzElI2FcE60nSPUdt7E-ghECtwwxMUcvWDxaXW",
   domain: "www.linkedin.com"
 };
 
