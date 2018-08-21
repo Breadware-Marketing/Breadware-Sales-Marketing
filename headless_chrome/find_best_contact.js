@@ -147,33 +147,23 @@ const custom_scores = [
     less_than_50: 0.5,
     greater_than_50_less_than_1000: 0.5,
     greater_than_1000_employees: 0.5
+  },
+  {
+    position: "manager",
+    less_than_50: 0.5,
+    greater_than_50_less_than_1000: 0.5,
+    greater_than_1000_employees: 0.5
+  },
+  {
+    position: "r&d",
+    less_than_50: 15,
+    greater_than_50_less_than_1000: 15,
+    greater_than_1000_employees: 15
   }
 ];
 
-// {
-//     "id": 607,
-//     "name": "Ankit",
-//     "linkedin_url": "https://www.linkedin.com/sales/accounts/insights?companyId=833287",
-//     "website": "http://www.shopankit.com",
-//     "geography": "West Palm Beach, Florida Area",
-//     "industry": "Consumer Goods",
-//     "company_headcount": "",
-//     "employees_on_linkedin": "91 employees on LinkedIn",
-//     "companyId": "833287"
-// }
 
-let companies_test = [
-  {
-    "id": 607,
-    "name": "Bemis Manufacturing Company",
-    "linkedin_url": "https://www.linkedin.com/sales/company/72931/people",
-    "website": "www.BemisMfg.com",
-    "industry": "Plastics",
-    "company_headcount": "",
-    "employees_on_linkedin": "645 employees on LinkedIn",
-    "companyId": "72931"
-}
-]
+let companies_test = [];
 
 // Checks Whether a Value is in a Given Array and Returns True or False
 const is_in_array = function(s, your_array) {
@@ -283,7 +273,7 @@ function calculate_cool_score(data, company_employee_count) {
 const cookie = {
   name: "li_at",
   value:
-    "AQEDARpZzHQC4jwtAAABY-zaSKYAAAFkEObMpk0AGCpY6i4eEKlM6SPuRC3p6Z-QkR2sqz5sA3oD1D6GgonWiXZA8nVYSqilf7rbrc9go9oQygQ0FnYzElI2FcE60nSPUdt7E-ghECtwwxMUcvWDxaXW",
+    "AQEDARpZzHQC4dNOAAABZLAp9W4AAAFk1DZ5blYAstAslekZ9Qyjnpd03E_IcoW02rhe2kqUn1cR9Lw0cP5LMZ0aRkOCuGzo2u4f1udnZraEfbgtQTYmkG6hpBNd9bLar5qgGNgj7HRnilPQoblFGBmB",
   domain: "www.linkedin.com"
 };
 
@@ -370,7 +360,7 @@ const puppeteer = require("puppeteer");
 
         // Show Only Relevant Results
         for (let pL of potential_leads) {
-          if (pL.cool >= 3) {
+          if (pL.cool >= 15) {
             leadsWithCoolPoints.push(pL);
           }
         }

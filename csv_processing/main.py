@@ -98,9 +98,9 @@ class Analyze_CSV(object):
 #                 writer.writerow(info)
 #             print('---')
 
-data = Analyze_CSV('inputs/consumer_info.csv')
-data.clean_by_employees('employees_on_linkedin', 200)
-data.create_csv('more_than_200_employees')
+data = Analyze_CSV('inputs/200-500_Employees_Consumer_Goods.csv')
+data.clean_by_employees('employees_on_linkedin', 50)
+data.create_csv('more_than_50_employees-consumer_goods')
 
 # data = Get_user_email('inputs/test_input.csv')
 # data.create_csv('things_and_what_not')
